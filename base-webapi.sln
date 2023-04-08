@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapiProject", "webapiProject\webapiProject.csproj", "{F12EB0A8-8CB6-4431-96D0-DA98E682BFAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapiProject", "src\webapiProject\webapiProject.csproj", "{F12EB0A8-8CB6-4431-96D0-DA98E682BFAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiTestProject", "webapiTestProject\webapiTestProject.csproj", "{8A9ED44D-1F6A-4B70-A2DC-0686E7587459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapiTestProject", "tests\webapiTestProject\webapiTestProject.csproj", "{8A9ED44D-1F6A-4B70-A2DC-0686E7587459}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4EB02DE-577C-4856-875D-905EC987E7CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B3CA47A7-81EC-4C02-B26E-273A987A2886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F12EB0A8-8CB6-4431-96D0-DA98E682BFAC} = {C4EB02DE-577C-4856-875D-905EC987E7CE}
+		{8A9ED44D-1F6A-4B70-A2DC-0686E7587459} = {B3CA47A7-81EC-4C02-B26E-273A987A2886}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEBBF115-0DAC-415C-ADA9-F7E1C9C772FE}
